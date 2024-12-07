@@ -8,11 +8,10 @@
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <script src="js/jquery.js"></script>
         <script src="js/script.js"></script>
+        
         <script src="js/bootstrap.min.js"></script>
 
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doshas - Vata, Pitta, Kapha</title>
+   
     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -20,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-center wow fadeIndown">
+                    <div class="text-center ">
                     <img src="imges/logo1.jpg" alt="logo">
                     </div>
             
@@ -28,9 +27,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="header-text">
-                    <h1>NATURAL THERAPUTIC ESSENCE </h1>
+                    <h1>NATURAL  THERAPUTIC  ESSENCE </h1>
                 </div>
             </div>
             
@@ -108,7 +107,7 @@
                           <div class="item text center">
                           <div class="row">
                             <div class="col-md-7">
-                                <div class="Panchakarma">
+                                <div class="karma">
                                
                                     <img src="imges/panchakarma-treatment.png" class="center-block" alt="testimonials">
                                   </div>
@@ -156,9 +155,10 @@
                 <h4 class="text-center"><i>AYURVEDIC TRIDOSHA</i></h4>
                 <div class="section-title">
                     <div class="section-title-buttons text-center mb-4">
-                        <button class="tab-button active" onclick="showInfo('vata')">Vata</button>
-                        <button class="tab-button" onclick="showInfo('pitta')">Pitta</button>
-                        <button class="tab-button" onclick="showInfo('kapha')">Kapha</button>
+                        <button class="tab-button active" onclick="showTridoshaInfo('vata')">Vata</button>
+                         <button class="tab-button" onclick="showTridoshaInfo('pitta')">Pitta</button>
+                         <button class="tab-button" onclick="showTridoshaInfo('kapha')">Kapha</button>
+
                     </div>
                     <div class="info-box">
                         <div id="vata" class="content active row align-items-center">
@@ -264,18 +264,228 @@
         </div>
     </div>
 </section>
-<section>
+<!--panchakarma per-purification measures-->
+<section class="measures">
     <div class="container">
         <div class="row">
+            
             <div class="col-md-12">
-                
+                <div class="Pre-purification">
+                <h5>Purvakarma: Pre-purification Masures</h5>
+                <p>Viitated Doshas are always located in the body parts where the disease is produced. All Doshas are to be collected into the kostha from where they are eliminated through Panchakarma, for collecting all Doshas(toxins) in the alimentary canal Snehana (oleation therapy) and svedana (sweating therapy) are done. Both the therapies snehana and svedana play an important role not only as Purvakarma but also works as a line by preparatory measures. Before, the actual procedure of purification/detoxification begins, there is a great need to prepare the body for the required methods to encourage it to let go of the toxins. </p>
             </div>
+        </div>
+        <div class="purwakarma">
+           <div class="col-md-12">
+            <div class="col-md-4">
+                <div class="snehana">
+                    <img src="imges/snehana4.jpg"  alt="snehana">
+                    <h5>Snehana (Oleation)</h5>
+                    <p>Snehan is an oil massage. Oil is applied to the entire body with a particular type of massage that helps the toxins to move toward the gastrointestinal tract.
 
-
+                        Oil massage also makes the superficial and deep tissues soft and supple, thus helping to remove stress and nourish the nervous system. Snehan is given daily for three to seven days, as indicated.
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Svedana">
+                    <img src="imges/swedana.jpg" alt="svedana" >
+                    <h5>Swedana (Sudation)</h5>
+                    <p>Svedana is sudation or sweating and is given every day immediately following the snehan. An herbal concoction may be added to the steam to further loosen the toxins from the individual. Svedana liquefies the toxins and increases the movement of toxins into the gastrointestinal tract.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Deepna">
+                    <img src="imges/deepana.jpg" alt="deepana">
+                    <h5>Deepna and Pachana</h5>
+                    <p>Deepana & Pachana does kindling of fire and digestion of metabolic toxins respectively. We use Deepana/ pachana ayurvedic medicinal herbs for this as per your Ayurvedic assessment which herbs and dosages will be then designed.</p>
+                </div>
+            </div>
+           </div>
+        </div>
         
         </div>
     </div>
 </section>
-   
+<!--panchakrama section-->
+<section class="panchakarma">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="Cleansing ">
+                        <h6>Five Basic Shodanas of Panchakarma: Cleansing Methods</h6>
+                        <p>It is important to understand that “pancha karma” actually means “five actions or five treatments.” There are five primary treatments included in Panchakarma which we elaborate on below.</p>
+                    </div>
+                
+                </div>
+                <div class="panchakarma-section-title">
+                    <div class="panchakarma-section-title-buttons text-center mb-4">
+                        <button class="pachakarma-tab-button active" onclick="showPanchakarmaInfo('vamana')">Vamana karma</button>
+                        <button class="pachakarma-tab-button" onclick="showPanchakarmaInfo('virechana')">Virechana</button>
+                        <button class="pachakarma-tab-button" onclick="showPanchakarmaInfo('vasthi')">Vasthi</button>
+                        <button class="pachakarma-tab-button" onclick="showPanchakarmaInfo('nasya')">Nasya</button>
+                        <button class="pachakarma-tab-button" onclick="showPanchakarmaInfo('rakthamokshana')">Rakthamokshana</button>
+
+                    </div>
+                    <div class="panchakarma-info-box">
+                        <div id="vamana" class="panchakarma-content active row align-items-center">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="vamana karma">
+                                    <div class="col-md-5">
+                                        <img src="imges/vamana karma.jpg">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="textPanchakarma">
+                                            <h2>VAMANA KARMA</h2>
+                                            <p>When there is congestion in the lungs causing repeated attacks of bronchitis, colds, cough, or asthma, the Ayurvedic treatment is therapeutic vomiting, vamana, to eliminate the kapha causing the excess mucus. <br>
+                        
+                                               <br> Oftentimes this also releases repressed emotions that have been held in the kapha areas of the lungs and stomach along with the accumulated dosha. Once the mucus is released, the patient will feel instantly relieved. It is likely that congestion, wheezing, and breathlessness will disappear and that the sinuses will become clear.<br>
+                                                
+                                               <br> Therapeutic vomiting is also indicated in chronic asthma, diabetes, chronic cold, lymphatic congestion, chronic indigestion, and edema. After vamana, resting, fasting, smoking certain herbal cigarettes, and not suppressing natural urges (i.e., urination, defecation, gas, sneezing, coughing) is recommended.<br>
+                                                
+                                                <br>If vamana is administered properly, the person should feel relaxation in the lungs, will be able to breathe freely, will have lightness in the chest, clear thinking, a clear voice, and a good appetite, and all symptoms of congestion disappear.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div id="virechana" class="panchakarma-content row align-items-center">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="virechanakarma">
+                                    <div class="col-md-6">
+                                        <div class="textPanchakarma">
+                                            <h2>VIRECHANA</h2>
+                                            <p>When excess bile, pitta, is secreted and accumulated in the gallbladder, liver, and small intestine, it tends to result in rashes, skin inflammation, acne, chronic attacks of fever, biliary vomiting, nausea, and jaundice. Ayurvedic literature suggests in these conditions the administration of therapeutic purgation or a therapeutic laxative.<br>
+                        
+                                              <br>  Purgatives help relieve the excess pitta causing the bile disturbance in the body. In fact, purgatives can completely cure the problem of excess pitta. When purgatives are used, the patient should not eat foods that will aggravate the predominant humor or cause the three humors to become unbalanced.</p>
+                                              <a href="">Read more</a>
+                                            </div>
+                                    </div>
+                        
+                                    <div class="col-md-6">
+                                        <div class="col-md-5">
+                                        <img src="imges/virechan1.webp">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img src="imges/virechana 2.jpeg">
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        
+
+                            
+                        </div>
+                        <div id="vasthi" class="panchakarma-content row align-items-center">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="vasthikarma">
+                                        <div class="col-md-5">
+                                            <img src="imges/vasthi.jpg">
+                                        </div>
+                                    <div class="col-md-7">
+                                        <div class="textPanchakarma">
+                                            <h2>VASTHI</h2>
+                                            <p>Vata is a very active principle in pathogenesis (disease). If we can control vata through the use of basti, we have gone a long way in going to the root cause of the vast majority of diseases. Vata is the main etiological (causal) factor in the manifestation of diseases. It is the motive force behind the elimination and retention of feces, urine, bile and other excreta.<br>
+                        
+                                               <br> Vata is mainly located in the large intestine, but bone tissue (asthi dhatu) is also a site for vata. Hence the medication administered rectally affects asthi dhatu. The mucus membrane of the colon is related to the outer covering of the bones (periosteum), which nourishes the bones. Therefore, any medication given rectally goes into the deeper tissues, like bones, and corrects vata disorders.</p>
+                                        
+                                               <a href="">Read more</a>
+                                            </div>
+                                       
+                                    </div>
+                        
+                                   
+                                </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div id="nasya" class="panchakarma-content row align-items-center">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="nasyakarma">
+                                    <div class="col-md-7">
+                                        <div class="textPanchakarma">
+                                            <h2>NASYA</h2>
+                                            <p>The nose is the doorway to the brain and it is also the doorway to consciousness. The nasal administration of medication is called nasya.<br>
+                        
+                                                An excess of bodily humors accumulated in the sinus, throat, nose, or head areas is eliminated by means of the nearest possible opening, the nose. Prana, life force as nerve energy, enters the body through the breath taken in through the nose. Prana is in the brain and maintains sensory and motor functions.<br>
+                                                
+                                                Prana also governs mental activities, memory, concentration, and intellectual activities. Deranged prana creates defective functioning of all these activities and produces headaches, convulsions, loss of memory, and reduced sensory perception.<br>
+                                                
+                                                Thus nasal administration, nasya, is indicated for prana disorders, sinus congestion, migraine headaches, convulsions, and certain eye and ear problems. Breathing also can be improved through nasal massage.<br>
+                                                
+                                                For this treatment, the little finger is dipped into ghee and inserted into the nose. The inner walls of the nose are slowly massaged, going as deeply as possible. This treatment will help to open the emotions. (Nose tissue is tender and for this application, the fingernail must be kept short to avoid injuring the delicate mucus membranes.)<br>
+                                                
+                                                Since most people have a deviated nasal septum, one side of the nose will be easier to penetrate and massage than the other. The finger should not be inserted forcibly.<br>
+                                                
+                                                The massage should proceed by slow penetration, the finger moving first in a clockwise and then counter-clockwise direction. By this means, the emotions that are blocked in the respiratory tract will be released. One may use this treatment each morning and evening. In this way, breathing patterns will change as the emotions are released and the eyesight also will improve.
+                                                
+                                                 </p>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-md-5">
+                                        <img src="imges/nasya.jpeg">
+                                        <img src="imges/nasya karma.webp">
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        
+                            </div>
+                        
+                        </div>
+                        <div id="rakthamokshana" class="panchakarma-content row align-items-center">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="rakthamokshanakarma">
+                                    <div class="col-md-7">
+                                        <div class="textPanchakarma">
+                                            <h2>RAKTHAMOKSHANA</h2>
+                                            <p>Toxins present in the gastrointestinal tract are absorbed into the blood and circulated throughout the body. This condition is called toxemia, which is the basic cause of repeated infections, hypertension, and certain other circulatory conditions.<br>
+                        
+                                                This includes repeated attacks of skin disorders such as urticaria, rashes, herpes, eczema, acne, scabies, leukoderma, chronic itching, or hives. In such conditions, along with internal medication, the elimination of the toxins and purification of the blood is necessary. Rakta moksha is also indicated for cases of enlarged liver, spleen, and gout. Pitta is produced from the disintegrated red blood cells in the liver.<br>
+                                                
+                                                So pitta and blood have a very close relationship. An increase in pitta may go into the blood causing toxicity, and thus many pitta-genic disorders. Extracting a small amount of blood from a vein relieves the tension created by the pitta-genic toxins in the blood.<br>
+                                                
+                                                Leeches have been used as an alternative to bloodletting. Bloodletting also stimulates the spleen to produce anti-toxic substances that help to stimulate the immune system.<br>
+                                                
+                                                Toxins are neutralized, enabling radical cures in many blood-borne disorders. Certain substances such as sugar, salt, yogurt, sour-tasting foods, and alcohol are toxic to the blood. In certain blood disorders, these substances should be avoided to keep the blood pure.<br>
+                                                
+                                                For rakta moksha treatment other than bloodletting, there are blood-purifying practices involving herbs, gem therapy, or color water therapy. For any rakta moksha treatment or related alternative treatment, it is beneficial to refrain from yogurt, salt, sugar, alcohol, marijuana, sour, and fermented foods.<br>
+                                            </p>
+                                            
+                                        </div>
+
+                                    </div>
+                        
+                                    <div class="col-md-5">
+                                        <img src="imges/rakthamokshana2.png" class="rakthamokshana">
+                                        <img src="imges/raktamokshna_show.png.webp" class="rakthamokshana2">
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
     </body>
     </html>
