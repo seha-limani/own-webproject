@@ -417,9 +417,46 @@
         
     }
     .measures{
-        background-color:honeydew;
+        background-color:rgba(159, 159, 159, 0.218);
         padding-bottom: 30px;
     }
+    /*intro panchakarma*/
+    .introduction h1{
+        text-align: center;
+        color: rgb(29, 29, 69);
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Times New Roman';
+        font-weight: bold;
+    }
+    .introduction p{
+        color:rgb(12, 17, 17);
+        font-size:20px ;
+        margin-top: 35px ;
+        line-height: 28px;
+        font-weight: 100;
+        font-family: calibri;
+    }
+    .introduction{
+        padding-top: 20px;
+      
+        
+    }
+    .figure img{
+        height: 50%;
+        width: 100%;
+       
+    }
+    .figure{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .figure figcaption{
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
     /*panchakarma section*/
     .Cleansing {
         padding-top: 20PX;
@@ -485,7 +522,7 @@
         border: 2px solid #050101;
         padding: 20px;
         border-radius: 20px;
-        background-color: rgb(228, 231, 186);
+        background-color: rgb(245, 250, 183);
     }
     .panchakarma-content{
         display: none;
@@ -516,11 +553,12 @@
     
     
     .panchakarma {
-        background-image: url(../imges/images\ \(6\).jpeg);
+        background-image: linear-gradient(rgba(143, 220, 20, 0.521),rgba(37, 124, 76, 0.197)) ,url(../imges/back.jpeg);
         padding: 20px 20px;
-        border-radius: 5px;
+        
         box-shadow: 0 4px 10px rgba(234, 137, 137, 0.1);
         background-size: cover;
+      
         
     }
     .vamana-karma img{
@@ -562,4 +600,23 @@
     .textPanchakarma  a{
         font-size: 18px ;
     
+    }
+    /* bentifits of panchakarma*/
+    .benifits img{
+        width: 100%;
+        height: 50%;
+        padding-top: 20px;
+    }
+    .benifits h3{
+    
+        text-align: center;
+        color: rgb(20, 20, 49);
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Times New Roman';
+    }
+    .benifits{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        
     }
