@@ -40,14 +40,17 @@
         66% { background-image: url(../imges/woman-3701713_960_720.jpg); }
         100% { background-image: url(../imges/ai-generated-8221928_960_720.webp); } 
       }
-    .text-center img{
+    .navbar-brand img{
+       
+        width: 50;
         text-align: left;
-        width: 5%;
-        height: 5%;
-        size: 5px;
+      height: 35;
       
-        
     }
+    .navbar{
+        background-color:rgba(236, 208, 172, 0.582);
+    }
+    
     .header-text h1{
         padding-top: 5%;
         text-align: left;
@@ -62,6 +65,7 @@
         z-index: 2; 
     
     }
+    
     /*about section*/
     
     .section-title-02{
@@ -298,7 +302,7 @@
     }
     
     .Ayurvedic-Tridosha {
-        background-image: url(../imges/background2.jpg);
+        background-image: url(../imges/ayurveda-medicine-background_1343645-6039.jpg);
         padding: 50px 50px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(234, 137, 137, 0.1);
@@ -311,15 +315,15 @@
     }
     .Pre-purification h5{
         text-align: center;
-        color: #333;
+        color: #080808;
         font-size: 30px;
         text-transform: uppercase;
         font-family: 'Times New Roman';
       
     }
     .Pre-purification p{
-        color:#333;
-        font-size:18px ;
+        color:#000000;
+        font-size:22px ;
         margin-top: 45px ;
         line-height: 28px;
         font-weight: 300;
@@ -333,10 +337,11 @@
         
     }
     .snehana{
-        background-color: rgb(158, 255, 223);
+        background-color: rgb(171, 235, 214);
         padding: 10px 20px;
         border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(234, 137, 137, 0.1);
+        box-shadow: 0 5px 18px rgba(10, 10, 10, 0.471);
+        transform: scale(1.00);
         
        
        
@@ -362,10 +367,12 @@
         
      }
      .Svedana{
-        background-color: rgb(204, 197, 169);
+        background-color: rgb(217, 210, 177);
         padding: 24px 20px;
         border-radius: 15px;
-        box-shadow: 0 4px 10px rgba(234, 137, 137, 0.1);
+        box-shadow: 0 5px 18px rgba(10, 10, 10, 0.471);
+        transform: scale(1.00);
+        
      }
     .Svedana h5{
         font-size: 20px;
@@ -389,10 +396,11 @@
         
     }
     .Deepna{
-        background-color: burlywood;
+        background-color: rgb(248, 201, 141);
         padding: 53px 20px;
         border-radius: 15px;
-        box-shadow: 0 4px 10px rgba(234, 137, 137, 0.1);
+        box-shadow: 0 5px 18px rgba(10, 10, 10, 0.471);
+        transform: scale(1.00);
         
         
     }
@@ -416,10 +424,14 @@
         padding-bottom: 10px;
         
     }
+    
     .measures{
-        background-color:rgba(159, 159, 159, 0.218);
+        background-image: url(../imges/testimonials-bg.webp);
+        
+        background-size: cover;
         padding-bottom: 30px;
     }
+    
     /*intro panchakarma*/
     .introduction h1{
         text-align: center;
@@ -439,18 +451,27 @@
     }
     .introduction{
         padding-top: 20px;
-      
         
+        
+    }
+    .introduction-panchakarma{
+        background-color: seashell;
     }
     .figure img{
         height: 50%;
         width: 100%;
-       
+        
     }
     .figure{
+        padding-bottom: 20px;
         padding-top: 10px;
-        padding-bottom: 30px;
+        text-align: center;
+        transform: scale(1.00);
+        width: 100%;
+        
     }
+    
+    
     .figure figcaption{
         text-align: center;
         font-weight: bold;
@@ -470,7 +491,7 @@
         font-family: 'Times New Roman';
     }
     .Cleansing  p{
-        color:rgb(38, 50, 50);
+        color:rgb(24, 39, 39);
         font-size:23px ;
         margin-top: 45px ;
         line-height: 28px;
@@ -503,11 +524,12 @@
         background: #7c3f0e;
         color: #fffffff5;
         font-size: 18px;
-        border-radius: 15px;
+        border-radius: 5px;
         cursor: pointer;
         transition:  0.3s ease;
         margin: 10px;
         font-family:'Times New Roman', Times, serif;
+        
     }
     .pachakarma-tab-button.active {
         background:#c36518;
@@ -516,13 +538,15 @@
     
     .pachakarma-tab-button:hover {
         background: #e78432;
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     }
     .panchakarma-content {
         margin-top: 20px;
-        border: 2px solid #050101;
+       
         padding: 20px;
-        border-radius: 20px;
-        background-color: rgb(245, 250, 183);
+       
+        background-color: rgba(245, 250, 183, 0.514);
     }
     .panchakarma-content{
         display: none;
@@ -543,35 +567,40 @@
         display: flex;
     }
     .textPanchakarma {
-        color: #010104;
+        color: #080821;
         margin-bottom: 10px;
         font-size: 30px;
         font-family: 'Times New Roman';
        font-weight: 100;
         
     }
+    .panchakarma-info-box{
+        transform: scale(1.00);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.004);
+    }
+    
     
     
     .panchakarma {
-        background-image: linear-gradient(rgba(143, 220, 20, 0.521),rgba(37, 124, 76, 0.197)) ,url(../imges/back.jpeg);
-        padding: 20px 20px;
-        
-        box-shadow: 0 4px 10px rgba(234, 137, 137, 0.1);
-        background-size: cover;
-      
-        
+        background-image: linear-gradient(rgba(40, 92, 30, 0.581),rgba(53, 114, 80, 0.515)) ,url(../imges/bg1-1024x683.jpg);
+       padding-top: 20px;
+       padding-bottom: 80px;
+    background-size: cover;
+     
+      transform: scale(1.00);
+      box-shadow: 0 20px 30px rgba(21, 21, 21, 0.804);
     }
     .vamana-karma img{
         height: 100%;
         width: 100%;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.385);
     }
     .virechanakarma img{
         height: auto;
         width: 100%;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.274);
     }
     .vasthikarma img{
         height: 100%;
@@ -602,21 +631,269 @@
     
     }
     /* bentifits of panchakarma*/
-    .benifits img{
-        width: 100%;
-        height: 50%;
-        padding-top: 20px;
-    }
-    .benifits h3{
     
+    .benefits-section {
+        padding: 40px 40px;
+       background-image: url(../imges/images.jpeg);
+        color: #fff;
         text-align: center;
-        color: rgb(20, 20, 49);
-        font-size: 30px;
-        text-transform: uppercase;
-        font-family: 'Times New Roman';
+        background-size: cover;
+      
+      
     }
-    .benifits{
-        padding-top: 20px;
-        padding-bottom: 10px;
+    
+    .content-container h1 {
+        font-size: 33px;
+        margin-bottom: 30px;
+        color:white;
+        font-weight: 600;
+        font-family: 'Times New Roman', serif;
+    }
+    
+    .content-container p {
+        font-size: 23px;
+        color:rgba(236, 204, 167, 0.881);
+        font-family: 'Times New Roman', serif;
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+    
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-top: 20px;
+    }
+    
+    .feature-item {
+        background-color:rgba(211, 202, 104, 0.478) ;
+        color:whitesmoke;
+        border-radius: 5px;
         
+        box-shadow: 0 8px 15px rgba(99, 98, 98, 0.241);
+        
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    }
+    
+    .feature-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .icon {
+        font-size: 40px;
+       
+    }
+    
+    .feature-item h3 {
+        font-size: 25px;
+        margin-top: 5px;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    
+    
+    
+    /* available on*/
+    .available-on{
+        background-image: url(../imges/photo-1637070773929-054cf3288cbb.jpg);
+        background-size: cover;
+    }
+    .available-title{
+        padding-top: 75px;
+       
+    }
+    .available-title p{
+       color: #fff;
+       font-size: 18px; 
+       font-family: 'Times New Roman', Times, serif;
+       font-weight: 100;
+    }
+    .available-title h2{
+        font-family: 'Times New Roman', Times, serif;
+        color: #fcf9f9;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .available-on-item{
+        text-align: center;
+        min-height: 230px;
+        padding-bottom: 15px;
+        position:relative;
+    }
+    
+    .available-on-item i{
+        color:#078de1;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 90px;
+        opacity: 1;
+        transition:all 1s;
+    }
+    .available-on-item:hover i{
+        opacity: .4;
+        
+    
+    }
+    .available-on-item h2{
+        font-size: 25px;
+    }
+    
+    
+    /*footer css*/
+    .footer{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        
+    }
+    #copyright{
+        width: 50%;
+    }
+    #copyright p{
+        counter-reset:#8c8b8a ;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .scroll-up{
+        text-align: right;
+    
+    }
+    .scroll-up a{
+        background-color: #034168;
+        padding: 25px;
+    
+    }
+    .scroll-up a i{
+        color: #fff;
+        font-size: 25px;
+    }
+    .contact-section {
+        display: flex;
+        height: 100vh;
+      }
+      
+      .contact-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+      
+      /* Video Section */
+      .video-container {
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .video-container .video-bg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      /* Contact Form Section */
+      .contact-form {
+        
+        background-image: url(../imges/istockphoto-1253265312-612x612.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        background-size: cover;
+        transform: scale(1.00);
+        box-shadow: 1 20px 30px rgba(63, 63, 63, 0.505);
+    
+      }
+      
+      .contact-form h2 {
+        font-size: 2rem;
+        color: #25136b;
+        margin-bottom: 10px;
+      }
+      
+      .contact-form p {
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .contact-form form {
+        width: 100%;
+        max-width: 400px;
+      }
+      
+      .contact-form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #3e597f;
+      }
+      
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      
+      .contact-form button {
+        background: #2d2c79;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+      
+      .contact-form button:hover {
+        background: #4e72bf;
+      }
+      
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .contact-container {
+          flex-direction: column;
+        }
+      
+        .video-container,
+        .contact-form {
+          flex: none;
+          width: 100%;
+          height: 50%;
+        }
+      }
+      .social-icons{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .social-icons ul{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    
+    }
+    .social-icons ul li{
+        list-style: none;
+        display: inline;
+        padding-left: 10px;
+    }
+    .social-icons ul li a{
+        display: inline-block;
+        border: 1px solid #9d9d9d;
+        width: 45px;
+        height: 45px;
+        text-align:center ;
+        line-height: 50px;
+        padding-top: 7px;
+    }
+    .social-icons ul li a:hover{
+        background-color: #129CF3 ;
+        border:1px solid #129CF3 ;
+        color: #fff;
     }

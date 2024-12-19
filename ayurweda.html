@@ -10,36 +10,73 @@
         <script src="js/script.js"></script>
         
         <script src="js/bootstrap.min.js"></script>
-
-   
+        <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-     <header class="header">
-        <div class="container">
+     <header class="header" id="HOME">
+        
+     
+        
+         <!--navigation-->
+         <nav class="navbar navbar-default navbar-fixed-top">
+              
+                
+            <div class="container-fluid">
+              
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">
+                      <!-- small size logo -->
+                      <img src="imges/logo1.jpg" alt="logo">
+
+                    </a>
+                </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#HOME" class="nav-item" style="color: black;">HOME</a></li>
+                    <li><a href="#HISTORY" class="nav-item"style="color: black;">HISTORY</a></li>
+                    
+                    <li><a href="#TESTIMONIALS" class="nav-item"style="color: black;" >ABOUT</a></li>
+                    <li><a href="#TRIDOSHA" class="nav-item"style="color: black;">TRIDOSHA</a></li>
+                    <li><a href="#PURWAKARMA" class="nav-item"style="color: black;">PURWAKARMA</a></li>
+                    <li><a href="#PANCHAKARMA" class="nav-item"style="color: black;">PANCHAKARMA</a></li>
+                    <li><a href="#BENIFITS" class="nav-item"style="color: black;">BENIFITS</a></li>
+                    <li><a href="#CONTACT" class="nav-item"style="color: black;">CONTACT</a></li>
+                  
+              </ul>
+              
+            </div>
+          </div>
+</nav>
+       
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-center ">
-                    <img src="imges/logo1.jpg" alt="logo">
+                    <div class="header-text">
+                        <h1>NATURAL  THERAPUTIC  ESSENCE </h1>
                     </div>
-            
+                    
                 </div>
-            </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="header-text">
-                    <h1>NATURAL  THERAPUTIC  ESSENCE </h1>
-                </div>
-            </div>
+        
             
 
         </div>
      </header>
+     
      <!--history of ayurveda-->
      <!--about section-->
-<section id="History">
-    <div class="container">
+<section id="HISTORY" >
+    <div class="container wow fadeInLeft" >
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="section-title-02">
@@ -90,10 +127,10 @@
                            <div class="item active text-center">
                             <div class="row">
                                 <div class="tridosa">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 wow fadeInLeft">
                                        <img src="imges/ayurveda.jpg" class="center-block" alt="testimonials">
                                     </div>
-                                    <div class="col-md-7">
+                                    <div class="col-md-7 wow heartBeat" >
                                         <h3>What is Ayurvedic Tridosha?</h3>
                                         <p>The Tridosha theory is a central concept in Ayurvedic medicine and embodies a view of health that is both simple and profound. It posits that all bodily functions are governed by three fundamental energies: Vata (air and space), Pitta (fire and water), and Kapha (water and earth).  
                                         </p>
@@ -107,7 +144,7 @@
                           <div class="item text center">
                           <div class="row">
                             <div class="col-md-7">
-                                <div class="karma">
+                                <div class="karma ">
                                
                                     <img src="imges/panchakarma-treatment.png" class="center-block" alt="testimonials">
                                   </div>
@@ -148,7 +185,7 @@
 
    </section>
    <!--tridosha section-->
-   <section class="Ayurvedic-Tridosha">
+   <section class="Ayurvedic-Tridosha" id="TRIDOSHA">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -160,9 +197,9 @@
                          <button class="tab-button" onclick="showTridoshaInfo('kapha')">Kapha</button>
 
                     </div>
-                    <div class="info-box">
+                    <div class="info-box ">
                         <div id="vata" class="content active row align-items-center">
-                            <div class="col-md-4">
+                            <div class="col-md-4 wow zoomIn">
                                 <img src="imges/vata.jpg" alt="Vata" class="img-fluid">
                             </div>
                             <div class="col-md-8">
@@ -195,7 +232,7 @@
                             </div>
                         </div>
                         <div id="pitta" class="content row align-items-center">
-                            <div class="col-md-4">
+                            <div class="col-md-4 ">
                                 <img src="imges/pita.jpg" alt="Pitta" class="img-fluid">
                             </div>
                             <div class="col-md-8">
@@ -226,7 +263,7 @@
                             </div>
                         </div>
                         <div id="kapha" class="content row align-items-center">
-                            <div class="col-md-4">
+                            <div class="col-md-4 ">
                                 <img src="imges/kapa.jpg" alt="Kapha" class="img-fluid">
                             </div>
                             <div class="col-md-8s">
@@ -265,20 +302,20 @@
     </div>
 </section>
 <!--panchakarma per-purification measures-->
-<section class="measures">
+<section class="measures" id="PURWAKARMA">
     <div class="container">
         <div class="row">
+          
             
-            <div class="col-md-12">
                 <div class="Pre-purification">
                 <h5>Purvakarma: Pre-purification Masures</h5>
                 <p>Viitated Doshas are always located in the body parts where the disease is produced. All Doshas are to be collected into the kostha from where they are eliminated through Panchakarma, for collecting all Doshas(toxins) in the alimentary canal Snehana (oleation therapy) and svedana (sweating therapy) are done. Both the therapies snehana and svedana play an important role not only as Purvakarma but also works as a line by preparatory measures. Before, the actual procedure of purification/detoxification begins, there is a great need to prepare the body for the required methods to encourage it to let go of the toxins. </p>
             </div>
         </div>
         <div class="purwakarma">
-           <div class="col-md-12">
+           
             <div class="col-md-4">
-                <div class="snehana">
+                <div class="snehana wow fadeInLeft">
                     <img src="imges/snehana4.jpg"  alt="snehana">
                     <h5>Snehana (Oleation)</h5>
                     <p>Snehan is an oil massage. Oil is applied to the entire body with a particular type of massage that helps the toxins to move toward the gastrointestinal tract.
@@ -289,27 +326,27 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="Svedana">
+                <div class="Svedana wow zoomIn ">
                     <img src="imges/swedana.jpg" alt="svedana" >
                     <h5>Swedana (Sudation)</h5>
                     <p>Svedana is sudation or sweating and is given every day immediately following the snehan. An herbal concoction may be added to the steam to further loosen the toxins from the individual. Svedana liquefies the toxins and increases the movement of toxins into the gastrointestinal tract.</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="Deepna">
+                <div class="Deepna wow fadeInRight">
                     <img src="imges/deepana.jpg" alt="deepana">
                     <h5>Deepna and Pachana</h5>
                     <p>Deepana & Pachana does kindling of fire and digestion of metabolic toxins respectively. We use Deepana/ pachana ayurvedic medicinal herbs for this as per your Ayurvedic assessment which herbs and dosages will be then designed.</p>
                 </div>
             </div>
-           </div>
+           
         </div>
         
         </div>
-    </div>
+    
 </section>
 <!--intro of panchakarma-->
-<section>
+<section  class="introduction-panchakarma" id="INTRO">
     <div class="container">
         <div class="row">
             <div class="introduction">
@@ -318,23 +355,29 @@
                     Susrutha Acharya both of them practice two ways treatment of medicine and surgery .But both of them consider and recomanded panchakarma treatment in their <i>"Charaka Samhita"</i> and <i>"Susrurtha Samhita"</i>.This is the main diffrence of Medical side & Surgery side.</p>
 
             <div class="col-md-6">
-                <figure class="figure">
+                
+                <figure class="figure wow zoomIn">
+                    
                     <img src="imges/panchakarma2.jpg" class="figure-img img-fluid rounded" alt="type1">
                     <figcaption class="figure-caption text-end"><i>Susrurtha Samhita</i></figcaption>
-                  </figure>
+                    
+                </figure>
+            
             </div>
             <div class="col-md-6">
-                <figure class="figure">
+                
+                <figure class="figure wow zoomIn">
                     <img src="imges/Panchakarma-.webp" class="figure-img img-fluid rounded" alt="type2">
                     <figcaption class="figure-caption text-end"><i>Charaka Samhita</i></figcaption>
                   </figure>
-            </div>
+    
+        </div>
         </div>
         </div>
     </div>
 </section>
 <!--panchakrama section-->
-<section class="panchakarma">
+<section class="panchakarma" id="PANCHAKARMA">
     <div class="container">
         <div class="row">
             <div class="col-md-12 ">
@@ -359,11 +402,11 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="vamana karma">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5  wow fadeInLeft">
                                         <img src="imges/vamana karma.jpg">
                                     </div>
                                     <div class="col-md-7">
-                                        <div class="textPanchakarma">
+                                        <div class="textPanchakarma wow heartBeat">
                                             <h2>VAMANA KARMA</h2>
                                             <p>When there is congestion in the lungs causing repeated attacks of bronchitis, colds, cough, or asthma, the Ayurvedic treatment is therapeutic vomiting, vamana, to eliminate the kapha causing the excess mucus. <br>
                         
@@ -412,11 +455,11 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="vasthikarma">
-                                        <div class="col-md-5">
+                                        <div class="col-md-5 ">
                                             <img src="imges/vasthi.jpg">
                                         </div>
                                     <div class="col-md-7">
-                                        <div class="textPanchakarma">
+                                        <div class="textPanchakarma ">
                                             <h2>VASTHI(BASTI)</h2>
                                             <p>Vata is a very active principle in pathogenesis (disease). If we can control vata through the use of basti, we have gone a long way in going to the root cause of the vast majority of diseases. Vata is the main etiological (causal) factor in the manifestation of diseases. It is the motive force behind the elimination and retention of feces, urine, bile and other excreta.<br>
                         
@@ -438,7 +481,7 @@
                                 <div class="col-md-12">
                                     <div class="nasyakarma">
                                     <div class="col-md-7">
-                                        <div class="textPanchakarma">
+                                        <div class="textPanchakarma ">
                                             <h2>NASYA</h2>
                                             <p>The nose is the doorway to the brain and it is also the doorway to consciousness. The nasal administration of medication is called nasya.<br>
                         
@@ -458,7 +501,7 @@
                                         </div>
                                     </div>
                         
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 ">
                                         <img src="imges/nasya.jpeg">
                                         <img src="imges/nasya karma.webp">
                                     </div>
@@ -473,8 +516,12 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="rakthamokshanakarma">
+                                        <div class="col-md-5 wow slideInLeft">
+                                            <img src="imges/rakthamokshana2.png" class="rakthamokshana">
+                                            <img src="imges/raktamokshna_show.png.webp" class="rakthamokshana2">
+                                        </div>
                                     <div class="col-md-7">
-                                        <div class="textPanchakarma">
+                                        <div class="textPanchakarma ">
                                             <h2>RAKTHAMOKSHANA</h2>
                                             <p>Toxins present in the gastrointestinal tract are absorbed into the blood and circulated throughout the body. This condition is called toxemia, which is the basic cause of repeated infections, hypertension, and certain other circulatory conditions.<br>
                         
@@ -493,10 +540,7 @@
 
                                     </div>
                         
-                                    <div class="col-md-5">
-                                        <img src="imges/rakthamokshana2.png" class="rakthamokshana">
-                                        <img src="imges/raktamokshna_show.png.webp" class="rakthamokshana2">
-                                    </div>
+                                    
                                 </div>
                                 </div>
                             </div>
@@ -509,23 +553,199 @@
         </div>
     </div>
 </section>
-<section >
-    <div class="container">
-        <div class="row">
-            <div class="benifits">
-                      <h3>Benefits of Panchakarma Treatment</h3>
-                       <div class="col-md-5">
-                        
-                       </div>
-                       <div class="col-md-7">
 
-                       </div>
+<section class="benefits-section" id="BENIFITS">
+    <div class="content-container">
+        <div class="row">
+            <div class="col-md-12 wow zoomInDown">
+        <h1>Benefits of Panchakarma Treatment</h1>
+        <p>Panchakarma treatment has numerous benefits for physical and emotional well-being, including easing chronic health issues, improving digestion, boosting immunity, and encouraging mental clarity. It promotes profound healing and rejuvenation by ridding the body of accumulated toxins and restoring dosha equilibrium, leaving you feeling revitalized and refreshed. Panchakarma is a classic Ayurvedic detoxification and rejuvenation treatment with several possible benefits:</p>
+        
+        <div class="benefits-grid">
+            <div class="feature-item">
+                <div class="icon">🌿</div>
+                <h3>Purifies the body entirely</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">💧</div>
+                <h3>Detoxifying the body and rejuvenating the mind</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">👨‍⚕️</div>
+                <h3>Balancing the Prakruti</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🍵</div>
+                <h3>Increasing metabolism</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🌅</div>
+                <h3>Strengthening the digestive fire</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">✔️</div>
+                <h3>Unblocking obstructed channels</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">💆‍♀️</div>
+                <h3>Calming the body</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">💪</div>
+                <h3>Increases immunity</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">😌</div>
+                <h3>Reduces tension</h3>
+            </div>
+            <div class="feature-item">
+                <div class="icon">💤</div>
+                <h3>Improves sleep patterns</h3>
             </div>
         </div>
     </div>
+    </div>
+</div>
 </section>
 
+<section class="contact-section" id="CONTACT">
+    <div class="contact-container">
+      
+      <div class="video-container">
+        <video autoplay muted loop class="video-bg">
+          <source src="imges/Liver-Nasya-v1.mp4" type="video/mp4">
+        
+        </video>
+      </div>
+
+     
+      <div class="contact-form wow fadeInRight">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Fill out the form below to get in touch.</p>
+        <form action="#" method="post">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+<section class="available-on">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="available-title wow fadeInLeft">
+                    <div class="col-md-4">
+                    <h2>Our Location</h2>
+                    <a> <p>153/5, <br>Miriswaththa road,<br> Gampaha, <br>Sri Lanka</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h2>Quick Contact</h2>
+                    <p>01112454657<br> 0732565576<br> ayurwedainfo@gmail.com</p>
+                </div>
 
 
+
+
+
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <!--first link-->
+                    <a href="">
+                        <div class="col-md-4">
+                            <div class="available-on-item wow fadeInup">
+                                <i class="fa fa-apple"></i>
+                                <div class="available-on-inner">
+                                   <h2>IOS</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--second link-->
+                    <a href="">
+                        <div class="col-md-4">
+                            <div class="available-on-item wow fadeInup">
+                                <i class="fa fa-android"></i>
+                                <div class="available-on-inner">
+                                    <h2>Android</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--third a link-->
+                    <a href="">
+                        <div class="col-md-4">
+                            <div class="available-on-item wow fadeInup">
+                               <i class="fa fa-windows"></i>
+                               <div class="available-on-inner">
+                                <h2>Window</h2>
+                               </div>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="social-icons">
+                    <ul>
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram"></i></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+     <!--footer-->
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="copyright">
+                    <p>copyright &copy;2024 <a href="#">Ayurweda</a></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="scroll-up">
+                    <a href="#HOME" ><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </footer>
+
+
+   </section>
+  
+  
+   <!--bootstrap java script-->
+   <script src="js/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <!-- wow js file-->
+    <script src="js/wow.min.js"></script>
+    <script  src="js/custom.js"></script>
+  
+
+  
     </body>
     </html>
